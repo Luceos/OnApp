@@ -1,5 +1,5 @@
 {
-    "name": "on-app/php-wrapper-external",
+    "name": "luceos/on-app",
     "description": "OnApp external PHP wrapper changed into a composer version",
     "version": "3.3.1",
     "require": {
