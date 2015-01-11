@@ -69,7 +69,7 @@ class OnApp_VirtualMachine_NetworkInterface_Usage extends OnApp {
                     ),
                     'stat_time' => array(
                        ONAPP_FIELD_MAP => '_stat_time',
-                       ONAPP_FIELD_TYPE => 'datetime'
+                       ONAPP_FIELD_TYPE => 'datetime',
                        ONAPP_FIELD_READ_ONLY => true,
                     ),
                     'data_received'        => array(
