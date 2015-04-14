@@ -106,6 +106,8 @@ class OnApp_VirtualMachine_IpAddress extends OnApp_IpAddress {
             case 3.1:
             case 3.2:
             case 3.3:
+            case 3.4:
+            case 3.5:
                 $this->fields = $this->initFields( 2.3 );
                 break;
         }
@@ -133,6 +135,7 @@ class OnApp_VirtualMachine_IpAddress extends OnApp_IpAddress {
                 $resource = parent::getResource( $action );
                 break;
         }
+
         return $resource;
     }
 

@@ -104,6 +104,8 @@ class OnApp_VirtualMachine_BillingStatistic extends OnApp {
             case 3.1:
             case 3.2:
             case 3.3:
+            case 3.4:
+            case 3.5:
                 $this->fields = $this->initFields( 3.0 );
 
                 unset( $this->fields[ 'cost' ] );
@@ -190,7 +192,7 @@ class OnApp_VirtualMachine_BillingStatistic extends OnApp {
      * unserializes the received response into the array of Objects
      *
      * @param integer $virtual_machine_id User ID
-     * @param mixed $url_args
+     * @param mixed   $url_args
      *
      * @return mixed an array of Object instances on success. Otherwise false
      * @access public
