@@ -27,7 +27,7 @@ define( 'ONAPP_GETRESOURCE_AUTOBACKUP_DISABLE', 'autobackup_disable' );
  */
 define( 'ONAPP_GETRESOURCE_TAKE_BACKUP', 'backups' );
 
-define( 'ONAPP_GERRESOURCE_MIGRATE', 'migrate');
+define( 'ONAPP_GETRESOURCE_MIGRATE', 'migrate');
 
 /**
  * Managing Disks
