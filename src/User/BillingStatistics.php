@@ -108,6 +108,8 @@ class OnApp_User_BillingStatistics extends OnApp {
             case 3.5:
             case 4.0:
             case 4.1:
+            case 4.2:
+            case 4.3:
                 $this->fields = $this->initFields( 2.3 );
                 break;
         }

@@ -399,6 +399,8 @@ class OnApp_VirtualMachine extends OnApp {
             case 3.5:
             case 4.0:
             case 4.1:
+            case 4.2:
+            case 4.3:
                 $this->fields                          = $this->initFields( 2.3 );
                 $this->fields[ 'type_of_format' ]      = array(
                     ONAPP_FIELD_MAP  => 'type_of_format',

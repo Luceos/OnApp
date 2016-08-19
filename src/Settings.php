@@ -97,6 +97,8 @@ class OnApp_Settings extends OnApp {
             case 3.5:
             case 4.0:
             case 4.1:
+            case 4.2:
+            case 4.3:
                 $this->fields = array(
                     'use_ssh_file_transfer'                  => array(
                         ONAPP_FIELD_MAP  => '_use_ssh_file_transfer',
